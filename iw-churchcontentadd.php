@@ -2,7 +2,7 @@
 /*
 Plugin Name: iw-churchcontentadd
 Plugin URI:   https://exior.co.uk
-Description:  This plugin filters  Church Content Plugin
+Description:  This plugin filters Church Content Plugin
 Version:      20171117
 Author:       Ian Wyllie
 Author URI:   https://exior.co.uk
