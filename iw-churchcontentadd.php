@@ -24,6 +24,10 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  */
 function yourprefix_change_sermon_slug( $args ) {
 	$args['rewrite']['slug'] = 'messages';
+	$args['rewrite']['name'] = 'Messages';
+	$args['rewrite']['singular_name'] = 'Message';
+	$args['rewrite']['add_new'] = 'Add New';
+	$args['rewrite']['add_new_item'] = 'Add Message';
 	return $args;
 }
 add_filter( 'ctc_post_type_sermon_args', 'yourprefix_change_sermon_slug' );
